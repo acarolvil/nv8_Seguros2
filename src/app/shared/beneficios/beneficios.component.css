@@ -1,0 +1,162 @@
+
+
+.beneficio {
+  list-style: none;
+  text-align: center;
+  margin: 2em 6em;
+  color: rgb(71 71 71);
+}
+
+.banner-conteudo {
+  padding-left: 0;
+}
+
+.beneficio-lista-responsiva {
+  display: flex;
+}
+
+h3 p {
+  margin: 0;
+}
+
+.quem-somos-texto {
+  text-align: start;
+}
+
+.beneficio-titulo {}
+
+.beneficio-texto {}
+
+.beneficios-texto {}
+
+.beneficios-conteudo,
+.marca-conteudo {}
+
+
+.quem-somos-texto {
+  text-align: start;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1em;
+  color: rgb(71 71 71);
+  ;
+}
+
+
+
+.marcas-titulo {
+  font-size: 26px;
+  font-size: 400;
+  color: rgb(71 71 71);
+  text-align: center;
+}
+
+.marcas-seta {
+  margin-top: 1em;
+}
+
+.marca-linha {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.caixa-titulo-marcas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 3em;
+}
+
+.marca {
+  padding: 0em 3em;
+
+}
+
+.marca img{
+  width: 88%;
+}
+
+
+.beneficios-conteudo {
+  padding-left: 0;
+}
+
+
+
+
+.marca-conteudo-desktop{
+  display: block;
+  padding-left: 0;
+}
+.marca-conteudo-mobile{
+  display: none;
+  padding-left: 0;
+}
+@media screen and (max-width: 1160px) {
+  .beneficio-lista-responsiva {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .marca-conteudo-desktop{
+    display: none;
+  }
+
+  .marca-conteudo-mobile{
+    display: block;
+  }
+
+  .marca-conteudo-mobile{
+
+  }
+
+  .marca{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .marca-linha{
+    display: block;
+  }
+
+  .marca-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+  .beneficio {
+    margin: 0
+  }
+
+  .beneficio img {
+    width: 60%
+  }
+
+  .quem-somos-texto {
+    text-align: center;
+  }
+
+  .marcas-titulo{
+    font-size: 22px
+  }
+
+}
+
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/nova-light/theme.css';
+@import '~primeng/resources/primeng.min.css';
+/* Adicione esta linha no início do arquivo */

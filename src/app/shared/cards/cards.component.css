@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+
+/* .caixa-titulo {
+  margin: 5em auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.seguro-card {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 3px 9px #0000002d;
+  text-align: center;
+  position: relative;
+  height: 381px;
+  margin-bottom: 3em;
+  width: 278px;
+}
+
+
+
+
+swiper-container {
+  box-shadow: inset 5px 0 5px -5px rgba(54, 54, 54, 0.068);
+  margin-left: 9em;
+}
+
+
+
+button.seguro-btn {
+  width: 100%;
+  border: none;
+  background: #03a497;
+  color: white;
+  font-size: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.seguros-cards {
+  margin: 2em 0;
+}
+
+
+.seguro-caixa-titulo {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulo-card {
+  font-weight: 300;
+  margin: 0;
+  font-size: 15px;
+}
+
+.titulo-card {
+  margin: 1em 0em 0.2em 0em;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.774);
+}
+
+
+
+
+
+
+/*
+
+  .seguro-btn:hover{
+      background-color: #027a70;
+  }
+  .card-btn {
+      position: absolute;
+      width: 100%;
+  } */
+
+
+#vida {
+  background-image: url('../../../assets/img/back-vidaSVG.svg');
+  background-position-y: -10em;
+  background-size: cover;
+
+}
+
+
+.caixa-teste {
+  display: flex;
+  margin: 4em 0em;
+  align-items: center;
+  /* background: red; */
+  justify-content: center;
+}
+
+
+#saude {
+  background-image: url('../../../assets/img/back-saudeSVG.svg');
+
+}
+
+#odontologico {
+  background-image: url('../../../assets/img/back-odontoSVG.svg');
+  background-position-y: -10em;
+  background-size: cover;
+}
+
+#empresarial {
+  background-image: url('../../../assets/img/back-empresarialSVG.svg');
+  background-position-y: -10em;
+  background-size: cover;
+}
+
+.swiper-wrapper {
+  padding-left: 2em;
+}
+
+@media screen and (max-width: 960px) {
+
+  .container-cards{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+swiper-container{
+  margin-left: 0em;
+  /* margin: 0em 8em; */
+  box-shadow: none;
+}
+
+swiper-slide{
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media screen and (max-width: 530px) {
+
+
+  .container-cards{
+    width:100%;
+  }
+}
+
+
+
+
+/* #geral{
+      background-image: url(../../../assets/img/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
+  } */
+
+
+/*
+
+
+
+/*
+@media screen and (max-width: 870px) {
+  swiper-container {
+    margin-left: 0;
+  }
+
+  swiper-slide {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .seguro-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px #0000002d;
+    text-align: center;
+    position: relative;
+    height: 343px;
+    margin-bottom: 3em;
+    width: 255px;
+    background-position-y: -10em;
+    background-size: cover;
+  }
+
+
+
+  ::ng-deep button.p-ripple.p-element.p-button.p-component {
+    padding:13px 70px;
+    background: #000000;
+    border-radius: 8px;
+    font-weight: 400;
+    border: none;
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+  swiper-container {
+    margin-left: 0;
+  }
+
+  swiper-slide {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .seguro-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px #0000002d;
+    text-align: center;
+    position: relative;
+    height: 343px;
+    margin-bottom: 3em;
+    width: 255px;
+    background-position-y: -10em;
+    background-size: cover;
+  }
+
+
+
+  ::ng-deep button.p-ripple.p-element.p-button.p-component {
+    padding:13px 70px;
+    background: #000000;
+    border-radius: 8px;
+    font-weight: 400;
+    border: none;
+    font-size: 15px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+
+
+  swiper-slide {
+    margin-bottom: 0;
+  }
+} */

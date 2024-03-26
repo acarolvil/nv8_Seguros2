@@ -1,0 +1,64 @@
+
+<nav class="menu-mobile" #menuNav
+(touchstart)="verifica($event)"
+>
+  <a href="#" data-target="slide-out" class="sidenav-trigger" ><i class="material-icons">menu</i></a>
+  <ul id="slide-out" class="sidenav" style="transform: translateX(-105%);">
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect sidenav-close" href="#!">Third Link With Waves</a></li>
+  </ul>
+</nav>
+
+<nav class="menu-desktop">
+  <ul class="header-contain">
+    <li> <img src="../../../assets/img/logo.png" alt="" class="header-logo"></li>
+    <span class="header-links">
+
+      <li (click)="closeAll($event)"><a routerLink="home"></a>
+
+
+        Home</li>
+      <li>
+        <a pButton type="button" (click)="toggleMenu($event)" icon="pi pi-bars" label="Show"
+           class="btn-menu">Seguros
+
+
+
+           <i [ngClass]="'pi pi-chevron-down'"></i>
+          </a>
+        <p-menu #menu [model]="items" [popup]="true" [appendTo]="'.btn-menu'" class="menu-popup">
+        <h1>oi</h1>
+        </p-menu>
+      </li>
+      <li (click)="closeAll($event)"><a routerLink="home" ></a>
+        <i class="bi bi-chevron-down"></i>
+        Benefícios</li>
+      <li (click)="closeAll($event)"><a routerLink="home"></a>Fale Conosco</li>
+    </span>
+    <li><button class="btn-orcamento2">Fazer orçamento</button></li>
+  </ul>
+</nav>
+<!-- <nav>
+  <span class="header-links">
+    <li><a routerLink="home"></a>Home</li>
+    <li> <p-menu #menu [model]="items" [popup]="true"></p-menu>
+      <button pButton type="button" (click)="menu.toggle($event)" icon="pi pi-bars" label="Show"></button>
+    </li>
+    <li><a routerLink="s"></a>Home</li>
+    <li><a routerLink="home"></a>Benefícios</li>
+    <li><a routerLink="home"></a>Fale Conosco</li>
+
+
+  </span>
+</nav>  -->
+<!-- <div style="position: fixed; top: 0; left: 0; width: 100%; background-color: #fff; z-index: 1000;">
+  <ul class="menu-desktop">
+    <li>
+      <button pButton type="button" (click)="menu.toggle($event)" icon="pi pi-bars" label="Show" class="btn-menu"></button>
+      <p-menu #menu [model]="items" [popup]="true"  [appendTo]="'.btn-menu'" class="menu-popup"></p-menu>
+    </li>
+  </ul>
+</div> -->

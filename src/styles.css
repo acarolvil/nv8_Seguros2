@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 80%;
+margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.caixa-btn {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.caixa-titulo {
+  margin: 5em 0em 2em 0em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(71 71 71);
+}
+
+
+
+.titulo {
+  font-size: 30px;
+  margin: 0;
+
+}
+
+.subtitulo {
+  font-weight: 200;
+  font-size: 21px;
+}
+
+
+.btn-orcamento {
+  color: white;
+  font-weight: 400;
+  background: #03689e;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5em 5em;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+@media screen and (max-width: 780px) {
+
+  .caixa-titulo {
+    text-align: center;
+  }
+
+  .titulo {
+    font-size: 25px;
+  }
+
+  .subtitulo {
+    font-size: 15px;
+  }
+
+  }

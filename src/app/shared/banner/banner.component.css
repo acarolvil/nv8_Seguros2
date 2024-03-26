@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+  font-family: "Inter", sans-serif;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  min-height: 90vh;
+  max-height: 90vh;
+
+}
+
+.cover-image {
+  min-height: 90vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  flex-flow: row;
+
+}
+
+
+.cover-image .back {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -999;
+  transform: translateY(-80%);
+  object-fit: cover;
+}
+
+.banner-titulo{
+  font-size: 35px;
+  font-weight: bold;
+  color:#474545 ;
+}
+
+::ng-deep button.p-ripple.p-element.p-button.p-component {
+  padding: 0.7em 6em;
+  background: #03689E;
+  border-radius: 8px;
+  font-weight: 400;
+  border: none;
+  font-size: 18px;
+}
+
+.banner-conteudo {
+  max-width: 61%;
+  margin: 7em 0em;
+  padding-left: 3em;
+  padding: 7em 0em -1em 3em;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+
+.topico-caixa{
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+}
+
+.topico {
+  min-width: 18vw;
+  min-height: 17vh;
+}
+
+li.topico.a  {
+  border-radius: 1em 0em 0em 1em;
+  background:#5299bea1;
+}
+li.topico.b  {
+  background:#028c7da3;
+}
+li.topico.c  {
+  border-radius: 0em 1em 1em 0em;
+  background:#ffffffcf;
+}
+
+.banner-caixa-lista {
+  margin: 5em 0;
+}
+
+@media screen and (max-width: 790px) {
+
+/* .banner{
+  margin-top: -10em;
+  z-index: -999;
+} */
+  .cover-image .back {
+    background: red;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -999;
+    transform: translateY(-90%);
+    object-fit: cover;
+    min-height: 90vh;
+  }
+
+  .banner-conteudo{
+    display: block;
+    height: auto;
+
+  }
+
+  .banner-caixa-lista {
+    display: none;
+  }
+
+  .banner-texto{
+    padding: 0;
+    margin: 6em 1em;
+  }
+  /* .banner-caixa{
+    display: none;
+  } */
+
+  .banner-titulo{
+    font-size: 27px;
+    text-align: center;
+    line-height: 1.3em;
+  }
+
+
+
+  .banner-texto {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .caixa-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2em;
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner-conteudo{
+    padding: 0;
+    display: relative;
+    max-width: none;
+  }
+
+  .logo{
+    max-height: 69px;
+  }
+
+  .banner-caixa-lista{
+    display: none;
+  }
+
+  ::ng-deep button.p-ripple.p-element.p-button.p-component {
+    padding: 0.9em 6em;
+    background: #03689E;
+    border-radius: 8px;
+    font-weight: 400;
+    border: none;
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+
+}

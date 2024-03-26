@@ -1,0 +1,125 @@
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+ul.header-contain {
+  padding-left: 0;
+}
+body{
+  margin: 0!important;
+
+}
+.header{
+  background-color: rgb(233, 165, 165);
+  position: fixed;
+z-index: 99;
+  width: 100%;
+}
+.navigation.open {
+  transform: translateX(0);
+}
+nav.menu-desktop {
+  position: fixed;
+  width: 100%;
+  transition: background-color 0.5s ease;
+  z-index: 999;
+
+}
+.menu-popup{
+  display: block;
+  position: relative;
+}
+.active{
+  background-color: #fffdfd;
+  box-shadow: -6px -8px 10px 10px #00000026;
+}
+
+img.header-logo {
+  width: 60%;
+}
+.menu-mobile{
+  display: none;
+}
+
+
+.header-contain{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+
+.header-links{
+  display: flex;
+
+}
+
+
+.btn-orcamento2{
+  padding: 0.7em 2em;
+  background: linear-gradient(45deg, #37baa9, #0b71a0);
+  box-shadow: 0px 1px 6px 1px #00000030;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: upper;
+}
+
+.btn-menu{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header-links li{
+  margin: 0 1em;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  text-transform: uppercase;
+
+
+}
+
+/* .header-links li:hover{
+background-color: red;
+
+
+} */
+
+::ng-deep .p-menu {
+  padding: 0.25rem 0;
+  background: #ffffff;
+  color: #495057;
+  border: 1px solid #dee2e6;
+  border-right: none;
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+  width: 12.5rem;
+  box-shadow: -4px 5px 8px #0000000f;
+}
+
+
+::ng-deep .p-menuitem-link {
+  color:#676767;
+  font-size: 13px;
+
+}
+@media screen and (max-width: 576px) {
+.menu-desktop{
+  display: none;
+}
+.menu-mobile{
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+}
+
+
+}
+
+

@@ -1,0 +1,7 @@
+
+::ng-deep body{
+  margin: 0!important;
+}
+*{
+  color: red;
+}

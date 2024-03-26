@@ -1,0 +1,18 @@
+::ng-deep .p-accordion p-accordiontab .p-accordion-tab {
+  margin-bottom: 26px;
+
+}
+
+::ng-deep a.p-accordion-header-link {
+  /* background: #117aa1; */
+/*
+  background: linear-gradient(178deg, #0d7895, #228b82); */
+  /* background: linear-gradient(180deg, #0f7973, #0f7973, #299d97); */
+  /* background: linear-gradient(178deg, #0f7973, #30aea7); */
+  /* background: linear-gradient(178deg, #118979, #0b71a0); */
+
+
+  background: #36918f;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}

@@ -1,0 +1,106 @@
+<section class="seguros">
+  <div class="container">
+      <div class="caixa-titulo">
+          <h1 class="titulo">Seguros que você possa estar procurando</h1>
+          <h2 class="subtitulo">Separamos por grupos nossas categorias de seguros</h2>
+      </div>
+    </div>
+    <div class="container-cards">
+
+
+      <div class="seguros-cards">
+        <swiper-container
+        [navigation]="mobileCard"
+        [slidesPerView]="slidesPerView"
+        [spaceBetween]="75"
+
+      >
+
+        <swiper-slide>
+          <div class="seguro-card" [style.backgroundImage]="'url(' + backgroundImageUrl + ')'" (click)="teste1()" >
+          <div class="seguro-caixa-titulo" >
+              <!-- <img src="img/icone-vida.svg" alt="icone seguro de vida"> -->
+              <h2 class="titulo-card">{{titulo}}</h2>
+              <h3 class="subtitulo-card">{{sub}}</h3>
+          </div>
+          <div class="card-btn">
+              <button class="seguro-btn" >Ver mais </button>
+          </div>
+      </div></swiper-slide>
+
+
+
+
+        <swiper-slide>
+            <div class="seguro-card" id="vida" >
+            <div class="seguro-caixa-titulo"  href="seguro-vida.html">
+                <!-- <img src="img/icone-vida.svg" alt="icone seguro de vida"> -->
+                <h2 class="titulo-card">Seguro de vida</h2>
+                <h3 class="subtitulo-card">Seguro para você e sua família viver despreocupados com possíveis
+                    problemas não programados</h3>
+            </div>
+            <div class="card-btn">
+                <button class="seguro-btn" >Ver mais </button>
+            </div>
+        </div></swiper-slide>
+          <swiper-slide>
+            <div class="seguro-card saude" id="saude">
+                <div class="seguro-caixa-titulo">
+                    <!-- <img src="img/icone-saude.svg" alt="icone seguro de saude"> -->
+                    <h2 class="titulo-card">Seguro de saúde</h2>
+                    <h3 class="subtitulo-card">Seguro para você e sua família viver despreocupados com possíveis
+                        problemas não programados</h3>
+                </div>
+                <div class="card-btn">
+                    <button class="seguro-btn">Ver mais</button>
+                </div>
+            </div></swiper-slide>
+          <swiper-slide>
+            <div class="seguro-card odontologico"id="odontologico">
+                <div class="seguro-caixa-titulo">
+                    <!-- <img src="img/icone-odontologico.svg" alt="icone seguro de odontologico"> -->
+                    <h2 class="titulo-card">Seguro odontológico</h2>
+                    <h3 class="subtitulo-card">Seguro para você e sua família viver despreocupados com possíveis
+                        problemas não programados</h3>
+                </div>
+                <div class="card-btn">
+                    <button class="seguro-btn">Ver mais</button>
+                </div>
+            </div></swiper-slide>
+            <swiper-slide>
+              <div class="seguro-card empresarial" id="empresarial">
+                <div class="seguro-caixa-titulo">
+                    <!-- <img src="img/icone-empresarial.svg" alt="icone seguro empresarial"> -->
+                    <h2 class="titulo-card">Seguro empresarial</h2>
+                    <h3 class="subtitulo-card">Seguro para você e sua família viver despreocupados com possíveis
+                        problemas não programados</h3>
+                </div>
+                <div class="card-btn">
+                    <button class="seguro-btn">Ver mais</button>
+                </div>
+            </div></swiper-slide>
+            <swiper-slide>
+              <div class="seguro-card empresarial" id="empresarial">
+                <div class="seguro-caixa-titulo">
+                    <!-- <img src="img/icone-empresarial.svg" alt="icone seguro empresarial"> -->
+                    <h2 class="titulo-card">Seguro empresarial</h2>
+                    <h3 class="subtitulo-card">Seguro para você e sua família viver despreocupados com possíveis
+                        problemas não programados</h3>
+                </div>
+                <div class="card-btn">
+                    <button class="seguro-btn">Ver mais</button>
+                </div>
+            </div></swiper-slide>
+
+          </swiper-container>
+      </div>
+    </div>
+      <div class="container">
+        <div class="caixa-btn">
+          <button class="btn-orcamento">FAZER ORÇAMENTO</button>
+        </div>
+  </div>
+
+</section>
+
+
